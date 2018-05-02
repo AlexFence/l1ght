@@ -1,0 +1,7 @@
+[package]
+name = "l1ght"
+version = "0.1.0"
+authors = ["Alex Fence <alexfence.code@gmail.com>"]
+license = "GPL-3.0"
+
+[dependencies]

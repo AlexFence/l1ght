@@ -3,8 +3,12 @@ name = "l1ght"
 version = "0.1.0"
 authors = ["Alex Fence <alexfence.code@gmail.com>"]
 license = "GPL-3.0"
+description = "A small cli for changing the backlight on a laptop"
+readme= "README.md"
 
-[package.metadata.arch]
-pkgname = "l1ght"
+[package.metadata.deb]
+maintainer = "Alex Fence <alexfence.code@gmail.com>"
+changelog = "packaging/debian/changelog"
+extended-description = "It does not rely on X."
 
 [dependencies]
